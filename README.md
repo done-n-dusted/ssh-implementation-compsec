@@ -58,20 +58,7 @@ After the file transfer is complete, the client terminates, and the server await
 
 ## Implementation Details
 
-    The SSH protocol is implemented based on the specification described in the provided SSH.pdf document.
-    OpenSSL library functions are used to perform encryption, decryption, and key exchange.
-    Symmetric and asymmetric encryption techniques are employed to ensure secure communication.
-    RSA encryption is used for key exchange between the client and server.
-
-## Limitations
-
-    Only basic file transfer operations are supported.
-    Error handling and robustness features are minimal in this implementation.
-    The project only implements Steps 1-4 of the SSH protocol (messages 1-4 in the ProtoMessageType enumeration).
-
-## License
-
-This project is licensed under the MIT License.
-
-## Acknowledgments
-- Special thanks to Prof. Shagufta Mehnaz for her guidance and support.
+* The SSH protocol is implemented based on the specification described in the provided SSH.pdf document.
+* OpenSSL library functions are used to perform encryption, decryption, and key exchange.
+* Symmetric and asymmetric encryption techniques are employed to ensure secure communication.
+* RSA encryption is used for key exchange between the client and server.
