@@ -1,2 +1,2 @@
-# ssh-implementation-compsec
-An ssh implementation using RSA keys as part of CSE543 - Computer Security course at the Penn State University
+# Secure File Transfer using SSH Protocol
+This project implements a client-server system for secure file transfer using the SSH (Secure Shell) protocol. The SSH protocol provides a secure channel between the client and server over which file transfer operations can be performed securely. The implementation utilizes the OpenSSL library to implement the SSH protocol and perform encryption and decryption tasks. The project was done as part of CSE543 -- Computer Security at the Pennsylvania State University -- University Park.
